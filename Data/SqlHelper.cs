@@ -11,7 +11,6 @@ namespace Data
     static class SqlHelper
     {
 
-
         public static string Connection { get; } = "Data Source=DESKTOP-VALDIVI\\SQLEXPRESS;" +
                                                    "Initial Catalog=Neptuno;Integrated Security=true";
         /// <summary> 

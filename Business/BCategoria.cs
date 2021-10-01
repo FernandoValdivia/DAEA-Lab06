@@ -39,7 +39,7 @@ namespace Business
                 dCategoria = new DCategoria();
                 Categoria nuevaCategoria = new Categoria
                 {
-                    IdCategoria = max,
+                    IdCategoria = max + 1,
                     Descripcion = categoria.Descripcion,
                     NombreCategoria = categoria.NombreCategoria
                 };
